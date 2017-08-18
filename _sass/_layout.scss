@@ -1,0 +1,192 @@
+$blueStart: lighten(powderblue, 8%);
+$blueStop: lighten(powderblue, 17%);
+$blueTextColor: darken(royalblue, 10%);
+
+$greenStart: palegreen;
+$greenStop: lighten(palegreen, 15%);
+$greenTextColor: darkgreen;
+
+$yellowStart: navajowhite;
+$yellowStop: lighten(navajowhite, 10%);
+$yellowTextColor: darkgoldenrod;
+
+$redStart: lighten(salmon, 5%);
+$redStop: lighten(salmon, 20%);
+$redTextColor: darkred;
+
+$pinkStart: lightpink;
+$pinkStop: lighten(lightpink, 10%);
+$pinkTextColor: darken(hotpink, 15%);
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0.7em;
+    color: crimson;    
+    text-shadow: 2px 2px darkred;    
+}
+
+
+.subtitle {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.9em;
+    margin-top: 0.8em;
+    margin-bottom: 1.3em;
+    color: orangered;
+    font-family: 'Marck Script', cursive;
+}
+
+
+.container-fluid {
+    font-size: 1.5em;
+    padding: 4%;
+}
+
+
+.row > * {
+    margin-bottom: 2.5em;
+}
+
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+
+li {
+    margin-bottom: 1.2em;
+}
+
+
+section {
+    padding: 0.5em;
+    border-radius: 0.5em;    
+    box-shadow: 2px 2px lightgrey;
+}
+
+
+.imageContainer {
+    text-align: center;
+}
+
+
+img {
+    border-radius: 0.4em;
+    max-width: 90%;
+    box-shadow: 2px 2px darken(lightgrey, 15%);
+}
+
+
+a:link,
+a:visited {
+    color: lighten(royalblue, 5%);
+    text-decoration: underline;
+}
+
+
+.welcome {   
+    section {        
+        font-family: 'Marck Script', cursive;        
+        font-size: 1.22em;
+
+        background: linear-gradient(to bottom right, $blueStart, $blueStop);
+        color: $blueTextColor;
+    }
+}
+
+
+.basicInfo {    
+    section {                
+        background: linear-gradient(to top left, $greenStart, $greenStop);
+        color: $greenTextColor;
+    }
+}
+
+
+.preDiploma {
+    section {
+        background: linear-gradient(to bottom right, $yellowStart, $yellowStop);
+        color: $yellowTextColor;
+    }
+}
+
+
+.volunteering {
+    section {
+        background: linear-gradient(to top left, $pinkStart, $pinkStop);
+        color: $pinkTextColor;
+    }
+}
+
+
+.education {
+    section {                
+        background: linear-gradient(to bottom right, $greenStart, $greenStop);
+        color: $greenTextColor;
+    }
+}
+
+
+.australia {
+    section {
+        background: linear-gradient(to top left, $blueStart, $blueStop);
+
+        color: $blueTextColor;
+    }
+}
+
+
+.pizzas {
+    section {
+        background: linear-gradient(to bottom right, $redStart, $redStop);
+        color: $redTextColor;
+    }
+}
+
+
+.books {    
+    section {                
+        background: linear-gradient(to top left, $greenStart, $greenStop);
+        color: $greenTextColor;
+    }
+}
+
+
+.hobbies {
+    section {
+        background: linear-gradient(to bottom right, $yellowStart, $yellowStop);
+        color: $yellowTextColor;
+    }
+}
+
+
+.contacts {
+    section {
+        background: linear-gradient(to bottom right, $pinkStart, $pinkStop);
+        color: $pinkTextColor;
+    }
+}
+
+
+.thanks {
+    font-weight: bold;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 2.7em;
+    color: crimson;
+
+    margin-top: -1em;
+    margin-bottom: 1.5em;
+}
